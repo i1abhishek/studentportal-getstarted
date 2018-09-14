@@ -11,9 +11,9 @@ SETUP
 
 * First of all (if it's not) install python 2.7 in your machine.
 ```
-$ brew install python #for UNIX
+$ brew install python #check alternative for windows and UBUNTU
 ```
-* You'll get the basic steps to install it on internet easily according to your configuration. (It's recommended to use LINUX/UNIX configurations, but you can find similar steps for windows also.)
+* You'll get the basic steps to install it on internet easily according to your configuration. (It's recommended to use UNIX configurations eg. UBUNTU, Kalli, OSX etc, but you can find similar steps for WINDOWS also.)
 
 * This is recommended to install pycharm ide to contribute in this project (https://www.jetbrains.com/pycharm/)
 
@@ -43,7 +43,7 @@ $ mkdir mydirectory && cd mydirectory
 ```
  To create the environment with virtualenv:
 ```sh
-$ virtualenv python portalenv  #see alternative if you are using other than LINUX/UNIX.
+$ virtualenv python portalenv  #see alternative for WIN.
 ```
  After creating virtual environment, it's time to activate it. Type this command
 ```sh
@@ -61,11 +61,11 @@ $ git clone https://github.com/sagban/studentportal.git
  To check wether the cloning process done corectly type ``` ls```,and it'll look like this.
 ```sh
 ls
-portalenv stupo-task
+portalenv studentportal
 ``` 
 
 
-   *Note: The directory 'mydirectory' is only to seperate the things from your stuff, so it won't effect out project because all the project stuff is in the repo we just cloned. So, don't try to rename it.*
+   *Note: The directory 'mydirectory' is only to seperate these things from your stuff, so it won't effect out project because all the project stuff is in the repo we just cloned. So, don't try to rename it.*
   
   Since, we've just cloned our project it's time to open it in a super powerfull IDE pycharm
  * Now, open the project in pycharm.(directory stupo-task)
@@ -78,7 +78,7 @@ portalenv stupo-task
     (portalenv) SagBans-Mac:studentportal sagban$ 
     ```
     If it's not, then try to activate the virual environment from here by using the previous command 
-    ```$ source ../portalenv/bin/activate    #be carefull of paths. This command is when you are in stupo-task repo```
+    ```$ source ../portalenv/bin/activate    #be carefull of paths. This command is when you are in studentportal repo```
     
     If everything worked fine >>
     Congratulations, you setup the StudentPortal project in your pc.
@@ -198,9 +198,9 @@ python manage.py migrate
 </code></pre>
 
 
-<p>When you're done investigating, you can stop the development server by hitting CTRL-C in your terminal window.</p>
+<p>When you're done investigating, you can always stop the development server by hitting CTRL-C/CMD-C in your terminal window.</p>
 
-*Don't forgot to activate virtual environment in every new terminal ( WE USE MANY THESE ;) ).*
+*Don't forgot to activate virtual environment in every new terminal ( You'll we required many of these ;) ).*
 
 
 ### Guidelines for Managing code
@@ -208,11 +208,11 @@ python manage.py migrate
 * Everyone write and push code in your respective git branches.
 * And then after you can create pull request of *branch* -> *master* from the github
 * No one will push directly in master branch.
-*Watch tutorials on git, github and version control to learn How to work with branches*
+* Watch tutorials on git, github and version control to learn How to work with branches
 * Make sure scripts, templates, models, url related to the particular app you creates should in their respective folder. 
 
 MAINTAINED BY
 -------------
-Team StudenPortal.(http://studentportal.vnit.ac.in/home/aboutus/)
+Team StudenPortal. (http://studentportal.vnit.ac.in/home/aboutus/)
 
 Happy Coding!
